@@ -1,0 +1,36 @@
+.taskBody {
+    display: flex;
+    height: 50px;
+    width: 700px;
+    background-color: #121212;
+    align-items: center;
+    border: #dddddd 1px solid;
+}
+
+.taskBox {
+    display: flex;
+    float: left;
+    justify-content: left;
+    align-items: center;
+    height: 30px;
+    width: 500px;
+    padding-left: 2%;
+    background-color: #232323;
+    border-radius: 0% 46% 46% 0%;
+}
+
+.taskBody button {
+    background-color: #00000000;
+    color: #147508;
+    border: 0;
+    font-size: 15pt;
+    margin-right: 20px;
+    margin-left: 75px;
+    float: right;
+    transition: all .6s ease;
+}
+
+.taskBody button:hover {
+    border-bottom: #ffffff 1px solid;
+    font-size: 17pt;
+}

@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: "Verdana";
+}
+
+body {
+    background-color: #000000;
+}
+
+.main {
+    float: left;
+    width: 600px;
+}
+
+header {
+    height: 200px;
+    width: 584px;
+    background-color: #121212;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-left: #dddddd 8px solid;
+    border-right: #dddddd 8px solid;
+}
+
+.bodyMain {
+    display: grid;
+    position: relative;
+    background-color: #222222;
+    padding-bottom: 5%;
+    border-left: #dddddd 8px solid;
+    border-right: #dddddd 8px solid;
+    border-bottom: #dddddd 8px solid;
+}
+
+.bodyMain p {
+    margin: 25px;
+}
+
+#btnDiv {
+    display: flex;
+    justify-content: center;
+    height: 331px;
+}
+
+.bodyMain #addButton {
+    background-color: #00000000;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: #ffffff 2px solid;
+    border-radius: 30%;
+    font-size: 15pt;
+    transition: all .6s ease;
+}
+
+.bodyMain #addButton:hover {
+    width: 220px;
+    padding: 22px;
+    font-size: 17pt;
+}
+
+.bodyMain #addButton:active {
+    background-color: #0c5c0a48;
+}
+
+.Tasks {
+    overflow-y: auto;
+    max-height: 655px;
+    float: right;
+}
